@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.cfg.uapa.java.modelos;
+package org.cfg.uapa.java.servicios;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 import org.cfg.uapa.java.entidades.Usuario;
-import org.cfg.uapa.java.modelos.Coneccion;
+import org.cfg.uapa.java.servicios.Coneccion;
 
 public class ModeloUsuario {
 

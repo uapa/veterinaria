@@ -17,8 +17,7 @@ public class Paciente {
    private Raza raza;
    private String fecha_nacimiento;
    private String peso;
-   private Doctor doctor;
-
+   
     public Integer getId() {
         return id;
     }
@@ -75,12 +74,5 @@ public class Paciente {
         this.peso = peso;
     }
 
-    public Doctor getDoctor() {
-        return doctor;
-    }
-
-    public void setDoctor(Doctor doctor) {
-        this.doctor = doctor;
-    }
-   
+     
 }
