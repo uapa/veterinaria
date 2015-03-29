@@ -1,16 +1,9 @@
-<%-- 
-    Document   : login
-    Created on : Mar 25, 2015, 8:44:15 PM
-    Author     : NAM
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<title>Login | Veterinaria|Santiago</title>
+	<title>Veterinaria|Santiago</title>
 
 	<!--=== CSS ===-->
 
@@ -49,30 +42,14 @@
 	<![endif]-->
 
 	<!-- Beautiful Checkboxes -->
-	<script type="text/javascript" src="plugins/uniform/jquery.uniform.min.js"></script>
 
-	<!-- Form Validation -->
-	<script type="text/javascript" src="plugins/validation/jquery.validate.min.js"></script>
-
-	<!-- Slim Progress Bars -->
-	<script type="text/javascript" src="plugins/nprogress/nprogress.js"></script>
-
-	<!-- App -->
-	<script type="text/javascript" src="assets/js/login.js"></script>
-	<script>
-	$(document).ready(function(){
-		"use strict";
-
-		Login.init(); // Init login JavaScript
-	});
-	</script>
 </head>
 
 <body class="login">
 	<!-- Logo -->
 	<div class="logo">
 		<img src="assets/img/logo.png" alt="logo" />
-		<strong>ME</strong>LON
+		<strong>Veterinaria</strong>Santiago
 	</div>
 	<!-- /Logo -->
 
@@ -80,14 +57,14 @@
 	<div class="box">
 		<div class="content">
 			<!-- Login Formular -->
-			<form class="form-vertical login-form" action="index.html" method="post">
+			<form class="form-vertical login-form" action="/VeterianariaSantiago/LoginServlet" method="post">
 				<!-- Title -->
-				<h3 class="form-title">Sign In to your Account</h3>
+				<h3 class="form-title">Ingresa a tu Cuenta</h3>
 
 				<!-- Error Message -->
 				<div class="alert fade in alert-danger" style="display: none;">
 					<i class="icon-remove close" data-dismiss="alert"></i>
-					Enter any username and password.
+					Introduzca nombre de usuario y contraseña.
 				</div>
 
 				<!-- Input Fields -->
@@ -109,9 +86,9 @@
 
 				<!-- Form Actions -->
 				<div class="form-actions">
-					<label class="checkbox pull-left"><input type="checkbox" class="uniform" name="remember"> Remember me</label>
+					<label class="checkbox pull-left"><input type="checkbox" class="uniform" name="remember"> Recuerdame</label>
 					<button type="submit" class="submit btn btn-primary pull-right">
-						Sign In <i class="icon-angle-right"></i>
+						Entrar <i class="icon-angle-right"></i>
 					</button>
 				</div>
 			</form>
@@ -120,7 +97,7 @@
 			<!-- Register Formular (hidden by default) -->
 			<form class="form-vertical register-form" action="index.html" method="post" style="display: none;">
 				<!-- Title -->
-				<h3 class="form-title">Sign Up for Free</h3>
+				<h3 class="form-title">Regístrate gratis</h3>
 
 				<!-- Input Fields -->
 				<div class="form-group">
@@ -148,7 +125,7 @@
 					</div>
 				</div>
 				<div class="form-group spacing-top">
-					<label class="checkbox"><input type="checkbox" class="uniform" name="remember" data-rule-required="true" data-msg-required="Please accept ToS first."> I agree to the <a href="javascript:void(0);">Terms of Service</a></label>
+					<label class="checkbox"><input type="checkbox" class="uniform" name="remember" data-rule-required="true" data-msg-required="Please accept ToS first."> Acepto las  <a href="javascript:void(0);">Condiciones del servicio</a></label>
 					<label for="remember" class="has-error help-block" generated="true" style="display:none;"></label>
 				</div>
 				<!-- /Input Fields -->
@@ -156,10 +133,10 @@
 				<!-- Form Actions -->
 				<div class="form-actions">
 					<button type="button" class="back btn btn-default pull-left">
-						<i class="icon-angle-left"></i> Back</i>
+						<i class="icon-angle-left"></i> Atras</i>
 					</button>
 					<button type="submit" class="submit btn btn-primary pull-right">
-						Sign Up <i class="icon-angle-right"></i>
+						Enviar <i class="icon-angle-right"></i>
 					</button>
 				</div>
 			</form>
@@ -173,7 +150,7 @@
 				<i class="icon-remove close hide-default"></i>
 
 				<!-- Link as Toggle Button -->
-				<a href="#" class="forgot-password-link">Forgot Password?</a>
+				<a href="#" class="forgot-password-link">Has Olvidado Tu Contraseña?</a>
 
 				<!-- Forgot Password Formular -->
 				<form class="form-vertical forgot-password-form hide-default" action="login.html" method="post">
@@ -224,7 +201,7 @@
 
 	<!-- Footer -->
 	<div class="footer">
-		<a href="#" class="sign-up">Don't have an account yet? <strong>Sign Up</strong></a>
+		<a href="#" class="sign-up">¿No tienes una cuenta todavía? <strong>Regístrate gratis</strong></a>
 	</div>
 	<!-- /Footer -->
 </body>
