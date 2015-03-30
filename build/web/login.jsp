@@ -180,25 +180,7 @@
 		<!-- /Forgot Password Form -->
 	</div>
 	<!-- /Login Box -->
-
-	<!-- Single-Sign-On (SSO) -->
-	<div class="single-sign-on">
-		<span>or</span>
-
-		<button class="btn btn-facebook btn-block">
-			<i class="icon-facebook"></i> Sign in with Facebook
-		</button>
-
-		<button class="btn btn-twitter btn-block">
-			<i class="icon-twitter"></i> Sign in with Twitter
-		</button>
-
-		<button class="btn btn-google-plus btn-block">
-			<i class="icon-google-plus"></i> Sign in with Google
-		</button>
-	</div>
-	<!-- /Single-Sign-On (SSO) -->
-
+	
 	<!-- Footer -->
 	<div class="footer">
 		<a href="#" class="sign-up">¿No tienes una cuenta todavía? <strong>Regístrate gratis</strong></a>

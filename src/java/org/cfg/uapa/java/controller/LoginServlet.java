@@ -10,7 +10,7 @@ import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.http.HttpSession;
-import org.cfg.uapa.java.servicios.ModeloUsuario;
+import org.cfg.uapa.java.servicios.ServicioUsuario;
 import org.cfg.uapa.java.entidades.Usuario;
 
 
@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
      System.out.println("Usuario: " + usuario + " Pass : " + clave);
 
     //Hacer una consulta a la base de datos para determinar si el usuario esta registrado       
-     ModeloUsuario m = new ModeloUsuario();
+     ServicioUsuario m = new ServicioUsuario();
      Usuario  usu =  m.checkUsuario(usuario,clave);
          
     //Creando session    

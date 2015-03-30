@@ -16,13 +16,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 import org.cfg.uapa.java.entidades.Usuario;
-import org.cfg.uapa.java.servicios.Coneccion;
+//import org.cfg.uapa.java.servicios.Coneccion;
 
-public class ModeloUsuario {
+public class ServicioUsuario {
 
     public List<Usuario> getUsuarios() {
 
-        List<Usuario> usuarios = new ArrayList<Usuario>();
+        List<Usuario> usuarios = new ArrayList<>();
 
         try {
             
