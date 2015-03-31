@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.List"%>
-<%@ page import="org.cfg.uapa.java.modelos.ModeloPais"%>
+<%@ page import="org.cfg.uapa.java.servicios.ModeloPais"%>
 <%@ page import="org.cfg.uapa.java.entidades.Pais"%>
 
 
