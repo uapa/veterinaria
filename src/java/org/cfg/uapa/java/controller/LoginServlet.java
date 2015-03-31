@@ -10,7 +10,7 @@ import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.http.HttpSession;
-import org.cfg.uapa.java.modelos.ModeloUsuario;
+import org.cfg.uapa.java.servicios.ModeloUsuario;
 import org.cfg.uapa.java.entidades.Usuario;
 
 
